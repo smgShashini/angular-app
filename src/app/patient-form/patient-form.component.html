@@ -1,0 +1,34 @@
+<div class="card" style="width: 60%">
+  <div class="card-header">Patient Details</div>
+
+  <div class="card-body">
+    <form (ngSubmit)="onSubmit(Form)" #Form="ngForm">
+      <div class="form-group col-12">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          ngModel
+          name="patientName"
+          required
+          #nameField="ngModel"
+        />
+        <span *ngIf="!nameField.valid && nameField.touched" class="error-block">
+          * You must enter your name
+        </span>
+      </div>
+
+      <div class="form-group col-12">
+        <label for="name">Phone Number</label>
+        <input type="text" class="form-control" ngModel name="patientPhoneks" />
+      </div>
+
+      <div class="form-group col-12">
+        <button [disabled]="!Form.valid" type="submit" class="btn btn-primary">
+          Submit
+        </button>
+        <button type="reset" class="btn btn-primary">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>

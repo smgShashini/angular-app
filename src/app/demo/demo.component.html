@@ -1,0 +1,28 @@
+<!--
+<h4>Basic native select</h4>
+<mat-form-field appearance="fill">
+  <mat-label>Cars</mat-label>
+  <select matNativeControl required (change)="selectChangeHandler($event)">
+    <option value="red">red</option>
+    <option value="blue">blue</option>
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </select>
+</mat-form-field>
+
+<button (click)="displayRelavantblock()">Change</button>
+
+<div *ngIf="redBlockDisplay" class="redtdiv">
+  <p>Red colour block</p>
+</div>
+<div *ngIf="blueBlockDisplay" class="bluetdiv">
+  <p>Blue colour block</p>
+</div>
+
+-->
+<div class="demo">
+  <p>I am {{ demoName }} component</p>
+  <p>Patient name :{{ receivedData.patientName }}</p>
+  <p>Doctor name :{{ receivedData.docName }}</p>
+  <p>Date:{{ receivedData.date }}</p>
+</div>

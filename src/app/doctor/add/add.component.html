@@ -1,0 +1,33 @@
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Doctor Name</label>
+    <input
+      type="email"
+      class="form-control"
+      id="exampleInputEmail1"
+      aria-describedby="emailHelp"
+      placeholder="Enter name"
+    />
+  </div>
+
+  <select class="form-select" aria-label="Default select example">
+    <option selected>Specialization</option>
+    <option value="1">Physician</option>
+    <option value="2">Nuerogist</option>
+    <option value="3">Child doctor</option>
+  </select>
+
+  <button (click)="displayAddSuccessDialogBox()" type="button">
+    Save to database
+  </button>
+</form>
+
+<h1 *ngIf="!activeAddSuccessDialog" mat-dialog-title>Favorite Animal</h1>
+<div mat-dialog-content>
+  My favorite animal is:
+  <ul>
+    <li>Panda</li>
+    <li>Unicorn</li>
+    <li>Lion</li>
+  </ul>
+</div>

@@ -1,0 +1,24 @@
+<div>
+  <table class="table table-success table-striped">
+    <thead>
+      <tr>
+        <th>Doctor Id</th>
+        <th>Specialization</th>
+        <th>Doctor Name</th>
+        <th>Availibility</th>
+        <th>Channel</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let dataItem of DoctorList">
+        <td>{{ dataItem.DocId }}</td>
+        <td>{{ dataItem.Specialization }}</td>
+        <td>{{ dataItem.DocName }}</td>
+        <td>{{ dataItem.Availibility }}</td>
+        <td>
+          <button type="button">Channel</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

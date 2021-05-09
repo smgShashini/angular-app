@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Shashini",
+    "age": 25,
+    "address": "Anuradhapura"
+  },
+  {
+    "name": "Udara",
+    "age": 32,
+    "address": "Medawachchiya"
+  },
+  {
+    "name": "Nadeesha",
+    "age": 7,
+    "address": "Kurunegala"
+  },
+  {
+    "name": "Kumara",
+    "age": 45,
+    "address": "Rambewa"
+  },
+  {
+    "name": "Piyadarshani",
+    "age": 27,
+    "address": "Kollupitiya"
+  }
+]

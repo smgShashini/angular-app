@@ -1,0 +1,26 @@
+<h3>Display employee details</h3>
+
+<button type="button" name="button" (click)="getInforFromClassServive1()">
+  Empolee 1
+</button>
+<ul class="list-group">
+  <li *ngFor="let infor of receivedInfor1" class="list-group-item">
+    {{ infor }}
+  </li>
+</ul>
+<button type="button" name="button" (click)="getInforFromClassServive2()">
+  Empolee 2
+</button>
+<ul class="list-group">
+  <li *ngFor="let infor of receivedInfor2" class="list-group-item">
+    {{ infor }}
+  </li>
+</ul>
+<button type="button" name="button" (click)="getInforFromClassServive3()">
+  Empolee 3
+</button>
+<ul class="list-group">
+  <li *ngFor="let infor of receivedInfor3" class="list-group-item">
+    {{ infor }}
+  </li>
+</ul>

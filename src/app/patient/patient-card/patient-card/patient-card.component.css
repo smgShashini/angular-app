@@ -1,0 +1,14 @@
+div {
+  margin-left: 10px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.card-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+}
+
+image {
+  width: 200px;
+  height: 200px;
+}
