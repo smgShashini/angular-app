@@ -42,6 +42,8 @@ import { MatInputModule } from '@angular/material/input';
 import { Demo2Component } from './demo2/demo2.component';
 import { SendComponent } from './send/send.component';
 import { ReceiveComponent } from './receive/receive.component';
+import { ParentComponent } from './parent/parent.component';
+import { SibilingComponent } from './sibiling/sibiling.component';
 
 @NgModule({
   declarations: [
@@ -69,6 +71,8 @@ import { ReceiveComponent } from './receive/receive.component';
     Demo2Component,
     SendComponent,
     ReceiveComponent,
+    ParentComponent,
+    SibilingComponent,
   ],
   imports: [
     BrowserModule,
